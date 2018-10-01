@@ -1,0 +1,163 @@
+/****GENERAL****/
+body{
+  font-family: 'Century Gothic', serif;
+  font-size: 16px;
+  margin: 7px;
+  padding: 7px;
+  background-color: #fad390;
+}
+h1{
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+h2{
+  font size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+header{
+  height: 100px;
+}
+footer{
+  height: 80px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #C5C5C5;
+  border-top: 2px solid #AAA;
+}
+nav li{
+  list-style-type: none;
+  float:left;
+}
+nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  width: 100%;
+  background-color: #424558;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.table{
+  display: table;
+  margin: 0 auto;
+}
+a, a:visited {
+    color: #ffffff; /* couleur blanche */
+}
+.menu-ind:hover{
+  border: 2px solid #2c3e50;
+  background-color: rgb(52, 152, 219);
+  font-color: black;
+}
+.menu-exp:hover{
+  border: 2px solid #2c3e50;
+  background-color: rgb(52, 152, 219);
+  font-color: black;
+}
+.menu-hob:hover{
+  border: 2px solid #2c3e50;
+  background-color: rgb(52, 152, 219);
+  font-color: black;
+}
+.menu-con:hover{
+  border: 2px solid #2c3e50;
+  background-color: rgb(52, 152, 219);
+  font-color: black;
+}
+@media screen and (max-width: 780px){
+  header{
+    height: 50px;
+   }
+ h1{
+  font-size: 28px;
+  margin: 20px 0px 0px 0px;
+ }
+ h2{
+   font-size: 25px;
+   margin: auto;
+ }
+ nav li a{
+  font-size: 12px;
+  padding: 10px;
+ }
+ nav li:hover a{
+  padding : 5px 10px 10px 10px;
+ }
+}
+section{
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.sec{
+  margin: 0px 10%;
+}
+.left{
+  float:left;
+  width: 30%;
+}
+.right{
+  float:left;
+  width: 70%;
+}
+.cleft, .cright, .sousleft, .sousright{
+  width: 50%;
+  float:left;
+}
+.sec::after, .exp::after, .reco::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+#Présentation{
+  border-top: 5px solid #2c3e50;
+  background-color: rgba(189, 195, 199);
+}
+#Parcours{
+  border-top: 5px solid #2c3e50;
+  background-color: rgba(189, 195, 199);
+}
+#compétences{
+  border-top: 5px solid #2c3e50;
+  background-color: rgba(189, 195, 199);
+}
+.leftexp{
+  width: 45%;
+  float: left;
+}
+.rightexp{
+  width: 50%;
+  float:left;
+  margin-left: 5%;
+}
+.leftexp img{
+  width: 100%;
+  max-width: 400px;
+}
+.progress-barre {
+    display: table;
+}
+
+.progress-barre div {
+    display: table-row;
+}
+
+label,
+progress {
+    display: table-cell;
+}
+
+label {
+    padding-right: 10px;
+    text-align: right;
+}
